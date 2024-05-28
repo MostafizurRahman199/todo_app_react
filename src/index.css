@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.custom-bg-size {
+  background-image: url('/pngwing.com.png');
+  background-size: 750px 750px; /* Adjust the size as needed */
+}
