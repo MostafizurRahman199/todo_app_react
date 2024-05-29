@@ -1,0 +1,98 @@
+.customBgSize {
+    background-image: url('/pngwing.com.png');
+    background-size: 750px 750px;
+  }
+  
+  @keyframes fly {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+      transform: translate(50vw, 20vh) rotate(45deg);
+    }
+    50% {
+      transform: translate(-30vw, -40vh) rotate(-45deg);
+    }
+    75% {
+      transform: translate(30vw, 40vh) rotate(90deg);
+    }
+    100% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+  }
+  
+  .butterfly {
+    position: absolute;
+    animation: fly linear infinite;
+    will-change: transform;
+  }
+  
+  .butterfly1 {
+    top: 10%;
+    left: 20%;
+    animation-duration: 50s;
+    animation-delay: 0s;
+  }
+  
+  .butterfly2 {
+    top: 30%;
+    right: 10%;
+    animation-duration: 60s;
+    /* animation-delay: 10s; */
+  }
+  
+  .butterfly3 {
+    bottom: 20%;
+    left: 30%;
+    animation-duration: 40s;
+    /* animation-delay: 20s; */
+  }
+  
+  .butterfly4 {
+    top: 40%;
+    right: 30%;
+    animation-duration: 70s;
+    /* animation-delay: 30s; */
+  }
+  
+  .butterfly5 {
+    bottom: 30%;
+    left: 50%;
+    animation-duration: 80s;
+    /* animation-delay: 40s; */
+  }
+  
+  .butterfly6 {
+    top: 50%;
+    right: 50%;
+    animation-duration: 90s;
+    /* animation-delay: 50s; */
+  }
+  
+  .butterfly7 {
+    top: 20%;
+    right: 20%;
+    animation-duration: 100s;
+    /* animation-delay: 60s; */
+  }
+  
+  .butterfly8 {
+    top: 24%;
+    right: 24%;
+    animation-duration: 100s;
+    /* animation-delay: 60s; */
+  }
+  
+  .butterfly9 {
+    top: 66%;
+    right: 33%;
+    animation-duration: 100s;
+    /* animation-delay: 60s; */
+  }
+  .butterfly10 {
+    top: 22%;
+    right: 33%;
+    animation-duration: 100s;
+    /* animation-delay: 60s; */
+  }
+  

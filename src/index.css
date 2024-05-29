@@ -3,7 +3,22 @@
 @tailwind utilities;
 
 
-.custom-bg-size {
+/* .custom-bg-size {
   background-image: url('/pngwing.com.png');
-  background-size: 750px 750px; /* Adjust the size as needed */
+  background-size: 750px 750px; 
+} */
+
+
+.hover-target:hover .hover-img {
+  opacity: 1;
+  /* transform: scale(1.3); */
+}
+.hover-target:hover .main-img {
+  opacity: 0;
+}
+
+
+.hover-footer:hover .footer-img{
+  
+  transform: scale(1.3);
 }
