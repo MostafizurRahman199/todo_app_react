@@ -1,6 +1,6 @@
 .customBgSize {
     background-image: url('/pngwing.com.png');
-    background-size: 750px 750px;
+    background-size: 800px 800px;
   }
   
   @keyframes fly {
@@ -8,13 +8,13 @@
       transform: translate(0, 0) rotate(0deg);
     }
     25% {
-      transform: translate(50vw, 20vh) rotate(45deg);
+      transform: translate(20vw, 10vh) rotate(45deg);
     }
     50% {
-      transform: translate(-30vw, -40vh) rotate(-45deg);
+      transform: translate(-15vw, -20vh) rotate(-45deg);
     }
     75% {
-      transform: translate(30vw, 40vh) rotate(90deg);
+      transform: translate(15vw, 20vh) rotate(90deg);
     }
     100% {
       transform: translate(0, 0) rotate(0deg);
@@ -23,7 +23,7 @@
   
   .butterfly {
     position: absolute;
-    animation: fly linear infinite;
+    animation: fly 100s linear infinite;
     will-change: transform;
   }
   
@@ -89,6 +89,7 @@
     animation-duration: 100s;
     /* animation-delay: 60s; */
   }
+  
   .butterfly10 {
     top: 22%;
     right: 33%;

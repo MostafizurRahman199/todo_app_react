@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 
-/* .custom-bg-size {
+.custom-bg-size {
   background-image: url('/pngwing.com.png');
   background-size: 750px 750px; 
-} */
+}
 
 
 .hover-target:hover .hover-img {
@@ -21,4 +21,10 @@
 .hover-footer:hover .footer-img{
   
   transform: scale(1.3);
+}
+
+
+
+.completed{
+  text-decoration: line-through;
 }

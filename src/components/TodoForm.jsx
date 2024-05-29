@@ -8,9 +8,9 @@ export default function TodoForm({todo, setTodo, todos, setTodos}) {
     const handleSubmit = (e) => {
         e.preventDefault(); // to prevent page reload
     
-        if (todo.trim() !== "") {
+        if (todo.name.trim() !== "") {
           setTodos([...todos, todo]);
-          setTodo(""); // Clear the input field after adding a todo
+          setTodo({name:"", done:false}); // Clear the input field after adding a todo
         }
       };
 
@@ -21,8 +21,8 @@ export default function TodoForm({todo, setTodo, todos, setTodos}) {
         type="text"
         name="todo"
         placeholder="Enter todo items..."
-        value={todo}
-        onChange={(e) => setTodo(e.target.value)}
+        value={todo.name}
+        onChange={(e) => setTodo({name:e.target.value,done:false })}
         className="flex-grow border border-pink-600 focus:outline-none focus:ring-1 focus:ring-pink-500 focus:opacity-90 p-2 text-center shadow-lg input-todo"
       />
       <button
